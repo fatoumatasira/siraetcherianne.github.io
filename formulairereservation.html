@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de reservation</title>
+    <link rel="stylesheet" href="formulairereservation.css">
+</head>
+<body>
+    <form>
+    <h1>Formulaire de reservation</h1>
+    <div>
+        <label for="nom">Nom*</label>
+        <input autofocus type="text" required>
+    </div><br>
+    <div>
+        <label for="prenoms">Prenoms*</label>
+        <input type="text" required>
+    </div><br>
+    <div>
+        <label for="tel.portable">Tel. portable</label>
+        <input type="text" class="vert">
+    </div><br>
+    <div>
+        <label for="email">Email*</label>
+        <input type="text" required>
+    </div><br>
+    <div>
+        <label for="confirmez l'email">Confirmez l'Email*</label>
+        <input type="text" required>
+    </div><br>
+    <div>
+        <label for="Quel est votre destination?">Quel est votre destination?</label>
+        <select name="...">
+            <option value="Londres" se>Londres</option>
+            <option value="Venise">Venise</option>
+            <option value="Grece">Grèce</option>
+            <option value="Turquie">Turquie</option>
+            </select>
+    </div><br>        
+    <div>
+        <label for="date d'arrivee">Date d'arivee*</label>
+        <input type="date" required>
+    </div><br>
+    <div>
+        <label for="date de depart">Date de depart*</label>
+        <input type="date" required>
+    </div><br>
+    <div>
+        <label for="pays de depart">Pays de depart*</label>
+        <input type="text" required> 
+    </div><br>
+    <div>
+        <label for="aeroport de depart">Aeroport de depart*</label>
+        <input type="text" required>
+    </div><br>
+    <div>
+    <label for="qte">
+        Nombre d'adultes
+        </label>
+        <input type="number" min="0" step="0" name="qte"/>
+    </div><br>
+    <div>    
+    <label for="qte">
+         Nombre d'enfants
+        </label>
+        <input type="number" min="0" step="0" name="qte"/>
+    </div><br>   
+ 
+    <div>
+        <label for="Classe de voyage">Classe de voyage</label>
+        <input type="checkbox" name="Classe de voyage"  value="Premiere classe">Premiere classe
+        <input type="checkbox" name="Classe de voyage"  value="Classe affaires">Classe affaires
+        <input type="checkbox" name="Classe de voyage"  value="Classe economique">Classe economique
+    </div><br>
+    <div>
+        <label for="Logement">Logement:</label>
+        <input type="checkbox" name="Logement"  value="Maison">Maison
+        <input type="checkbox" name="Logement"  value="Appartement">Appartement
+        <input type="checkbox" name="Logement"  value="Hotel 2 etoiles">Hotel 2 etoiles
+        <input type="checkbox" name="Logement"  value="Hotel 3 etoiles">Hotel 3 etoiles
+        <input type="checkbox" name="Logement"  value="Hotel 4 etoiles">Hotel 4 etoiles
+        <input type="checkbox" name="Logement"  value="Hotel 2 etoiles">Hotel 5 etoiles
+    </div><br>
+        <div>
+            <form>
+                <button type="submit" formaction="mercires.html">Reserver</button>
+              </form>
+        </div><br>
+    </form>    
+</body>
+</html>

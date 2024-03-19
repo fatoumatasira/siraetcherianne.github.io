@@ -1,0 +1,102 @@
+img{
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+
+}
+.image-text{
+    position: relative;
+    font-size: 14vw;
+    color: black;
+-webkit-text-stroke: 0.3vw black;
+ text-transform: uppercase;}
+
+.image-text::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    Left: 0;
+   width: 0%;
+height: 100%;
+color: palevioletred;
+-webkit-text-stroke:0vw blue;
+ 
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{width: 0;}
+70%,90%{width: 100%;}
+}
+
+.img3{
+    height: 400px;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.img4{
+    height: 400px;
+    float: right;
+    width: 49%;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: center;
+}
+.R{
+    text-align: center;
+}
+.p2{
+    border: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-container {
+    position: relative;
+  }
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color:black;
+    font-size: 150px;
+    font-weight: bold;
+}
+.r{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6 ease;
+    margin-left: 400px;
+}
+.r:hover{
+    background-color: black;
+    color: white;
+}
+.r2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6 ease;
+}
+.r2:hover{
+    background-color: black;
+    color: white;
+}

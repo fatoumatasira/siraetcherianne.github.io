@@ -1,0 +1,13 @@
+body { 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image4.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: cover;
+     background-repeat: none;
+
+}
+
+h1 { 
+    color: white;
+    margin-left: 26%;
+}
